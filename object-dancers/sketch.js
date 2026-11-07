@@ -17,7 +17,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // ...except to adjust the dancer's name on the next line:
-  dancer = new ghostDancer(width / 2, height / 2);
+  dancer = new GhostDancer(width / 2, height / 2);
 }
 
 function draw() {
@@ -31,7 +31,7 @@ function draw() {
 
 // You only code inside this class.
 // Start by giving the dancer your name, e.g. LeonDancer.
-class ghostDancer {
+class GhostDancer {
   constructor(startX, startY) {
     this.x = startX;
     this.y = startY;
